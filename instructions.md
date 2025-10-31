@@ -31,7 +31,7 @@ Before you debug the code, look over the script and answer the following questio
 
 1. Without executing the script, explain what happens when you run the script. You should do this by reading the code. As a group, trace execution of the script by hand.
 2. Name any places you see context managers or decorators in the script. What do these context managers or decorators do? If part of a library, look up the library documentation and write what the library is used for.
-3. This script takes command line arguments (a topic this week!). How does this script get command line arguments from the user?
+3. This script takes command line arguments. How does this script get command line arguments from the user?
 
 ## Debugging
 
