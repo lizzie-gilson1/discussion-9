@@ -83,4 +83,14 @@ Use your Python knowledge to fix this problem. There will still be another error
 ## Code Improvement
 What else can be done to improve this code? You might consider documentation, commenting, and error handling. For example, what will happen if someone enters a molecule name that is not found on PubChem? Add error handling for this case. 
 
+
+# C++ Debugging
+Now, look at the file average.cpp. Use the C++ debugger to find the issues with the code and fix them. 
+
+Hint: Try using print statments when debugging to figure out what each variable currently is.
   
+1. What where the errors highlighted by the debugger? How did you fix them?
+
+Try using the gdb text-user interface (`gdb -tui ./average.cpp`).
+2. How might the text-user interface help when debugging? When might command line debugging be easier?
+3. Why should we include the `-O0` tag when debugging using gdb?
