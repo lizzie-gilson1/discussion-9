@@ -89,7 +89,7 @@ Now, look at the file average.cpp. Use the *[C++ debugger, gdb](https://sourcewa
 
 Hint: Try using print statements when debugging to figure out what each variable currently is.
   
-1. What where the errors highlighted by the debugger? How did you fix them?
+1. What were the errors highlighted by the debugger? How did you fix them?
 
 Try using the gdb text-user interface (`gdb -tui ./average.cpp`).
 
