@@ -85,12 +85,15 @@ What else can be done to improve this code? You might consider documentation, co
 
 
 # C++ Debugging
-Now, look at the file average.cpp. Use the C++ debugger to find the issues with the code and fix them. 
+Now, look at the file average.cpp. Use the *[C++ debugger, gdb](https://sourceware.org/gdb/current/onlinedocs/gdb.html/)* to find the issues with the code and fix them. 
 
-Hint: Try using print statments when debugging to figure out what each variable currently is.
+Hint: Try using print statements when debugging to figure out what each variable currently is.
   
 1. What where the errors highlighted by the debugger? How did you fix them?
 
 Try using the gdb text-user interface (`gdb -tui ./average.cpp`).
+
 2. How might the text-user interface help when debugging? When might command line debugging be easier?
-3. Why should we include the `-O0` tag when debugging using gdb?
+3. Why should we include the `-O0` tag when debugging?
+4. What else can be done to improve this code? Test different inputs and see if there is a bug the debugger didn't catch.
+
