@@ -90,11 +90,7 @@ Now, look at the file average.cpp. Use the *[C++ debugger, gdb](https://sourcewa
 Hint: Try using print statements when debugging to figure out what each variable currently is.
   
 1. What were the errors highlighted by the debugger? How did you fix them?
+2. Why should we include the `-O0` tag when debugging?
+3. Try using valgrind to check for memory leaks. Did you find any?
 
-Try using the gdb text-user interface (`gdb -tui ./average.cpp`).
-
-2. How might the text-user interface help when debugging? When might command line debugging be easier?
-3. Why should we include the `-O0` tag when debugging?
-4. Try using valgrind to check for memory leaks. Did you find any?
-5. There are some memory issues in this code, use valgrind to find and fix all the errors. Report out how many memory issues you found.
 
