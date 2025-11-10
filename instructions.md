@@ -96,5 +96,5 @@ Try using the gdb text-user interface (`gdb -tui ./average.cpp`).
 2. How might the text-user interface help when debugging? When might command line debugging be easier?
 3. Why should we include the `-O0` tag when debugging?
 4. Try using valgrind to check for memory leaks. Did you find any?
-5. What else can be done to improve this code? Test different inputs and see if there is a bug the debugger didn't catch.
+5. There are some memory issues in this code, use valgrind to find and fix all the errors. Report out how many memory issues you found.
 
